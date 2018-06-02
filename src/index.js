@@ -129,7 +129,6 @@ export default (app, options = {}) => {
         ...state,
         [opts.isError]: null,
         [opts.isLoading]: null,
-        [opts.isSignedIn]: false,
         [opts.user]: user,
         // A logout may be dispatched between the authentication being started and completed
         ignorePendingAuth: false,
